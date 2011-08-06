@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184CC5AC13EDB88400E486DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184CC5AB13EDB88400E486DF /* UIKit.framework */; };
+		184CC5AE13EDB88400E486DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184CC5AD13EDB88400E486DF /* Foundation.framework */; };
+		184CC5B013EDB88400E486DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184CC5AF13EDB88400E486DF /* CoreGraphics.framework */; };
+		184CC5B213EDB88400E486DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184CC5B113EDB88400E486DF /* QuartzCore.framework */; };
+		184CC5B413EDB88400E486DF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184CC5B313EDB88400E486DF /* OpenGLES.framework */; };
+		184CC5BA13EDB88400E486DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 184CC5B813EDB88400E486DF /* InfoPlist.strings */; };
+		184CC5BD13EDB88400E486DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CC5BC13EDB88400E486DF /* main.m */; };
+		184CC5C013EDB88400E486DF /* TestOpenGL2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CC5BF13EDB88400E486DF /* TestOpenGL2AppDelegate.m */; };
+		184CC5C313EDB88400E486DF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184CC5C113EDB88400E486DF /* MainWindow.xib */; };
+		184CC5C513EDB88400E486DF /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 184CC5C413EDB88400E486DF /* Shader.fsh */; };
+		184CC5C713EDB88400E486DF /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 184CC5C613EDB88400E486DF /* Shader.vsh */; };
+		184CC5CA13EDB88400E486DF /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CC5C913EDB88400E486DF /* EAGLView.m */; };
+		184CC5CD13EDB88400E486DF /* TestOpenGL2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CC5CC13EDB88400E486DF /* TestOpenGL2ViewController.m */; };
+		184CC5D013EDB88400E486DF /* TestOpenGL2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184CC5CE13EDB88400E486DF /* TestOpenGL2ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		184CC5A713EDB88400E486DF /* TestOpenGL2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOpenGL2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184CC5AB13EDB88400E486DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		184CC5AD13EDB88400E486DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		184CC5AF13EDB88400E486DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		184CC5B113EDB88400E486DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		184CC5B313EDB88400E486DF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		184CC5B713EDB88400E486DF /* TestOpenGL2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestOpenGL2-Info.plist"; sourceTree = "<group>"; };
+		184CC5B913EDB88400E486DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		184CC5BB13EDB88400E486DF /* TestOpenGL2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestOpenGL2-Prefix.pch"; sourceTree = "<group>"; };
+		184CC5BC13EDB88400E486DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184CC5BE13EDB88400E486DF /* TestOpenGL2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOpenGL2AppDelegate.h; sourceTree = "<group>"; };
+		184CC5BF13EDB88400E486DF /* TestOpenGL2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOpenGL2AppDelegate.m; sourceTree = "<group>"; };
+		184CC5C213EDB88400E486DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		184CC5C413EDB88400E486DF /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		184CC5C613EDB88400E486DF /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		184CC5C813EDB88400E486DF /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		184CC5C913EDB88400E486DF /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		184CC5CB13EDB88400E486DF /* TestOpenGL2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOpenGL2ViewController.h; sourceTree = "<group>"; };
+		184CC5CC13EDB88400E486DF /* TestOpenGL2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOpenGL2ViewController.m; sourceTree = "<group>"; };
+		184CC5CF13EDB88400E486DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestOpenGL2ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184CC5A413EDB88400E486DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184CC5AC13EDB88400E486DF /* UIKit.framework in Frameworks */,
+				184CC5AE13EDB88400E486DF /* Foundation.framework in Frameworks */,
+				184CC5B013EDB88400E486DF /* CoreGraphics.framework in Frameworks */,
+				184CC5B213EDB88400E486DF /* QuartzCore.framework in Frameworks */,
+				184CC5B413EDB88400E486DF /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184CC59C13EDB88400E486DF = {
+			isa = PBXGroup;
+			children = (
+				184CC5B513EDB88400E486DF /* TestOpenGL2 */,
+				184CC5AA13EDB88400E486DF /* Frameworks */,
+				184CC5A813EDB88400E486DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184CC5A813EDB88400E486DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184CC5A713EDB88400E486DF /* TestOpenGL2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184CC5AA13EDB88400E486DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184CC5AB13EDB88400E486DF /* UIKit.framework */,
+				184CC5AD13EDB88400E486DF /* Foundation.framework */,
+				184CC5AF13EDB88400E486DF /* CoreGraphics.framework */,
+				184CC5B113EDB88400E486DF /* QuartzCore.framework */,
+				184CC5B313EDB88400E486DF /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		184CC5B513EDB88400E486DF /* TestOpenGL2 */ = {
+			isa = PBXGroup;
+			children = (
+				184CC5BE13EDB88400E486DF /* TestOpenGL2AppDelegate.h */,
+				184CC5BF13EDB88400E486DF /* TestOpenGL2AppDelegate.m */,
+				184CC5C113EDB88400E486DF /* MainWindow.xib */,
+				184CC5C413EDB88400E486DF /* Shader.fsh */,
+				184CC5C613EDB88400E486DF /* Shader.vsh */,
+				184CC5C813EDB88400E486DF /* EAGLView.h */,
+				184CC5C913EDB88400E486DF /* EAGLView.m */,
+				184CC5CB13EDB88400E486DF /* TestOpenGL2ViewController.h */,
+				184CC5CC13EDB88400E486DF /* TestOpenGL2ViewController.m */,
+				184CC5CE13EDB88400E486DF /* TestOpenGL2ViewController.xib */,
+				184CC5B613EDB88400E486DF /* Supporting Files */,
+			);
+			path = TestOpenGL2;
+			sourceTree = "<group>";
+		};
+		184CC5B613EDB88400E486DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184CC5B713EDB88400E486DF /* TestOpenGL2-Info.plist */,
+				184CC5B813EDB88400E486DF /* InfoPlist.strings */,
+				184CC5BB13EDB88400E486DF /* TestOpenGL2-Prefix.pch */,
+				184CC5BC13EDB88400E486DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184CC5A613EDB88400E486DF /* TestOpenGL2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184CC5D313EDB88400E486DF /* Build configuration list for PBXNativeTarget "TestOpenGL2" */;
+			buildPhases = (
+				184CC5A313EDB88400E486DF /* Sources */,
+				184CC5A413EDB88400E486DF /* Frameworks */,
+				184CC5A513EDB88400E486DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestOpenGL2;
+			productName = TestOpenGL2;
+			productReference = 184CC5A713EDB88400E486DF /* TestOpenGL2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184CC59E13EDB88400E486DF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 184CC5A113EDB88400E486DF /* Build configuration list for PBXProject "TestOpenGL2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 184CC59C13EDB88400E486DF;
+			productRefGroup = 184CC5A813EDB88400E486DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184CC5A613EDB88400E486DF /* TestOpenGL2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184CC5A513EDB88400E486DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184CC5BA13EDB88400E486DF /* InfoPlist.strings in Resources */,
+				184CC5C313EDB88400E486DF /* MainWindow.xib in Resources */,
+				184CC5C513EDB88400E486DF /* Shader.fsh in Resources */,
+				184CC5C713EDB88400E486DF /* Shader.vsh in Resources */,
+				184CC5D013EDB88400E486DF /* TestOpenGL2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184CC5A313EDB88400E486DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184CC5BD13EDB88400E486DF /* main.m in Sources */,
+				184CC5C013EDB88400E486DF /* TestOpenGL2AppDelegate.m in Sources */,
+				184CC5CA13EDB88400E486DF /* EAGLView.m in Sources */,
+				184CC5CD13EDB88400E486DF /* TestOpenGL2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		184CC5B813EDB88400E486DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184CC5B913EDB88400E486DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		184CC5C113EDB88400E486DF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184CC5C213EDB88400E486DF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		184CC5CE13EDB88400E486DF /* TestOpenGL2ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184CC5CF13EDB88400E486DF /* en */,
+			);
+			name = TestOpenGL2ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184CC5D113EDB88400E486DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		184CC5D213EDB88400E486DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		184CC5D413EDB88400E486DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestOpenGL2/TestOpenGL2-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TestOpenGL2/TestOpenGL2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		184CC5D513EDB88400E486DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestOpenGL2/TestOpenGL2-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TestOpenGL2/TestOpenGL2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184CC5A113EDB88400E486DF /* Build configuration list for PBXProject "TestOpenGL2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184CC5D113EDB88400E486DF /* Debug */,
+				184CC5D213EDB88400E486DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184CC5D313EDB88400E486DF /* Build configuration list for PBXNativeTarget "TestOpenGL2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184CC5D413EDB88400E486DF /* Debug */,
+				184CC5D513EDB88400E486DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184CC59E13EDB88400E486DF /* Project object */;
+}
